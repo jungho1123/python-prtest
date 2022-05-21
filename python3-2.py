@@ -1,0 +1,10 @@
+#다양한 부분 문자열을 출력하세요
+str=input('다섯 문자 이상의 문자열 입력 >> ')
+print('입력 문자열: {}'.format(str))
+print('첫 문자: {}'.format(str[0]))
+print('마지막 문자: {}'.format(str[-1]))
+print('첫 문자를 제외한 부분 문자열: {}'.format(str[1:]))
+print('마지막 문자를 제외한 부분 문자열: {}'.format(str[:len(str)-1]))
+print('맨 앞과 뒤의 두 문자를 제외한 부분 문자열: {}'.format(str[2:len(str)-2]))
+print('문자 하나씩을 건너뛴 부분 문자열: {}'.format(str[::2]))
+print('역문자열: {}'.format(str[::-1]))
