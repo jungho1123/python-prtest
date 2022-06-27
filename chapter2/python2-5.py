@@ -2,10 +2,10 @@
 #F=C*9/5+32
 #약식 계산: f=C*2+30
 
-C=int(input('온도 입력'))
-F=C*9/5+32
-f=C*2+30
+c = int(input('온도 입력 >> '))
+F = c*9/5+32
+f = c*2+30
 
-print('정확 계산: 섭씨: {} 화씨: {}'.format(C,F))
-print('약식 계산: 섭씨: {} 화씨: {}'.format(C,f))
+print('정확 계산: 섭씨: {} , 화씨: {}'.format(c, F))
+print('약식 계산: 섭씨: {} , 화씨: {}'.format(c, f))
 print('차이: {}'.format(F-f))
