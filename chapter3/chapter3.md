@@ -17,14 +17,49 @@
 > **문자열 관련 메소드**
 
 - replace(a,b) : 문자열에 있는 a를 b로 바꿈
+>
+      str = 'hello friend'
+      print(str.replace('friend','family'))   -> hello family
+ 
 - count('부분 문자열') : 문자열 내에서 부분 문자열의 출현 횟수 반환
+>
+      str = 'hello hi hi hi'
+      print(str.count('hi'))    -> 3
+ 
 - join(문자열 이름) : 문자와 문자 사이에 원하는 문자열 삽입
+>
+      str = '12345'
+      print('*'.join(str))    -> 1*2*3*4*5
+ 
 - find(sub), index(sub) : 부분 문자열 sub가 맨 처음에 위치한 첨자를 반환 (sub가 없을 경우 find는 -1 반환, index는 ValueError를 반환) 
+>
+      str = 'hello friend'
+      print(str.find('friend'))   ->6
+
 - split() : 문자열을 공백, tab, enter 등을 기준으로 여러 문자열로 나눔
+>
+      m, n = '100 200'.split()
+      print(m, n)    -> 100 200
+ 
 - center() : 폭을 지정하고 중앙에 문자열 배치
+>
+      print('hello'.center(11,'*'))   -> ***hello***
+ 
 - ljust(),rjust() : 폭을 지정하고 왼쪽, 오른쪽으로 정렬
+>
+      print('hello'.ljust(11,'*'))    -> hello******
+      print('hello'.rjust(11,'*'))    -> ******hello
+ 
 - strip() : 문자열 앞뒤의 특정 문자들을 제거 
+
+> 
+      print('***hello---'.strip('* -'))   -> hello
+      
 - zfill() : 문자열의 지정 폭 앞에 0 채워넣기
+
+>
+      print('234'.zfill(5))   -> 00234
+      
 - format() : 출력을 정형화
 <br>
 
