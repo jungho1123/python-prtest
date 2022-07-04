@@ -68,7 +68,7 @@ m.grid(row=5, column=0, padx=5, pady=10)
 et = Entry(win, width=26)
 et.grid(row=5, column=1)
 
-ch1=Button(win, text='거스름돈', width=26, command=change)
+ch1=Button(win, text='주문 종료', width=26, command=change)
 ch1.grid(row=5, column=2, pady=10)
 ch2=Entry(win, width=26)
 ch2.grid(row=5, column=3, pady=10)
