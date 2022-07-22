@@ -38,3 +38,15 @@
 - speed() : 속도 지정
 - width() : 선 굵기 지정
 - forward() : 전진    <-> backward() 
+- right,left(각도) : 거북이 방향 바꾸기 
+- goto(x,y) : (x,y)좌표로 거북이 이동
+- setup(숫자,숫자) : 창 크기 지정 
+- penup() : 거북이 이동 시 선 표시 x (<->pendown)
+- fillcolor('color') : 색 채우기
+- begin_fill() : 칠하기 시작
+
+> **모듈 matplotlib.pyplot(as plt)**
+- plt.plot(x,y) : 라인 플롯 그리기 
+- plt.barh(x,y,height,color) : 가로 막대 그래프 그리기 (0~1까지 height의 값 지정, 1에 가까울수록 여백이 좁아짐)
+- plt.bar(x,y,height,color) : 세로 막대 그래프 그리기 
+- plt.xlabel, ylabel : 각 축의 레이블 표시
