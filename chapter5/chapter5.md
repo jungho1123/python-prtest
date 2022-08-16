@@ -85,6 +85,7 @@
 - list.sort() : 리스트 항목의 순서를 오름차순으로 정렬
 - list.sort(reverse=True) : 리스트 항목의 순서를 내림차순으로 정렬
 - sorted(list) : 항목의 순서를 정렬한 리스트를 반환, 원래의 리스트 자체는 변화 x
+- sorted(리스트명,key=lambda x:(int(x[3]),int(x[2]),int(x[1]))) : 리스트를 지정한 항목에 따라 오름차순으로 
 
-
+<br>
 >  **튜플**
